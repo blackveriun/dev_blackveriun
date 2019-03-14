@@ -840,20 +840,139 @@
       </div>  
     </section>
 
+    <!-- detalles de proyectos  -->
+    
+    
+    <section class="bg-light">
+      <div>
+          <div class="box-body">
+              <h3 class="title text-center">Estado de los Proyectos</h3>
+              <table class="table table-bordered">
+                <tr>
+                  <th style="width: 10px">#</th>
+                  <th style="width: 40px">Plataforma</th>
+                  <th style="width: 40px">Proyecto</th>
+                  <th>Descripcion</th>
+                  <th >Version</th>
+                  <th >Ultima Mejora</th>
+                  <th style="width: 110px">Progreso</th>
+                  <th style="width: 40px">%</th>
+                  <th style="width: 40px">Estado</th>
+                </tr>
+
+                <tr>
+                  <td>1.</td>
+                  <td><i class="fab fa-laravel fa-3x"></i></td>
+                  <td>Crud Dev.Blackveriun</td><!--Proyecto-->
+                  <td>Sistema Completo Crud Create read update delete</td><!--descripcion-->
+                  <td>v.1.08</td><!--version-->
+                  <td>13-3-2019</td><!--ultima fecha-->
+                  <td>
+                    <div class="progress progress-xs">
+                      <div class="indeterminate red" style="width: 10%"></div>
+                    </div>
+                  </td>
+                  <td><span class="new badge red">10%</span></td>
+                  <td><span class="new badge orange">Proceso</span></td><!--estado-->
+                </tr>
+
+                <tr>
+                    <td>2.</td>
+                    <td><i class="fab fa-android fa-3x"></i></td>
+                    <td>Crud Android</td><!--Proyecto-->
+                    <td>Sistema Completo Crud Create read update delete</td><!--descripcion-->
+                    <td>v.0.10</td><!--version-->
+                    <td>13-3-2019</td><!--ultima fecha-->
+                    <td>
+                      <div class="progress progress-xs">
+                        <div class="determinate red" style="width: 10%"></div>
+                      </div>
+                    </td>
+                    <td><span class="new badge red">10%</span></td>
+                    <td><span class="new badge red">Pausado</span></td><!--estado-->
+                  </tr>
+
+                  <tr>
+                      <td>3.</td>
+                      <td><i class="fab fa-react fa-3x"></i></td>
+                      <td>Crud Electron</td><!--Proyecto-->
+                      <td>Sistema Completo Crud Create read update delete</td><!--descipcion-->
+                      <td>v.0.10</td><!--version-->
+                      <td>13-3-2019</td><!--ultima fecha-->
+                      <td>
+                        <div class="progress progress-xs">
+                          <div class="determinate red" style="width: 10%"></div>
+                        </div>
+                      </td>
+                      <td><span class="new badge red">10%</span></td>
+                      <td><span class="new badge red">Pausado</span></td><!--estado-->
+                    </tr>
+
+                    <tr>
+                        <td>4.</td>
+                        <td><i class="fab fa-python fa-3x"></i></td>
+                        <td>CV web pdf</td><!--Proyecto-->
+                        <td>pagina para generar cv en descarga para pdf y word </td><!--descipcion-->
+                        <td>v.2.04</td><!--version-->
+                        <td>13-3-2019</td><!--ultima fecha-->
+                        <td>
+                          <div class="progress progress-xs">
+                            <div class="determinate orange" style="width: 30%"></div>
+                          </div>
+                        </td>
+                        <td><span class="new badge orange">30%</span></td>
+                        <td><span class="new badge red">Detenido</span></td><!--estado-->
+                      </tr>
+
+                      <tr>
+                          <td>5.</td>
+                          <td><i class="fab fa-android fa-3x"></i></td>
+                          <td>locker-Shield</td><!--Proyecto-->
+                          <td>App para seguridad de registros localstorage</td><!--descipcion-->
+                          <td>v.2.17</td><!--version-->
+                          <td>13-3-2019</td><!--ultima fecha-->
+                          <td>
+                            <div class="progress progress-xs">
+                              <div class="determinate blue" style="width: 60%"></div>
+                            </div>
+                          </td>
+                          <td><span class="new badge blue">60%</span></td>
+                          <td><span class="new badge red">Detenido</span></td><!--estado-->
+                        </tr>
+
+                        <tr>
+                            <td>6.</td>
+                            <td><i class="fab fa-php fa-3x"></i></td>
+                            <td>H-Fb</td><!--Proyecto-->
+                            <td>Mejora de H-fb ID-001</td><!--descipcion-->
+                            <td>v.2.04</td><!--version-->
+                            <td>13-3-2019</td><!--ultima fecha-->
+                            <td>
+                              <div class="progress progress-xs">
+                                <div class="determinate blue" style="width: 75%"></div>
+                              </div>
+                            </td>
+                            <td><span class="new badge blue">75%</span></td>
+                            <td><span class="new badge red">Detenido</span></td><!--estado-->
+                          </tr>
+
+                          <!--Proyectos no agregados aun -> bd anime, bd gamers -->
+                
+              </table>
+            </div>
+      </div>
+    </section>
+    
+
    <!-- Compiled and minified JavaScript -->
    <script type="text/javascript" src="js/materialize.min.js"></script>
 
-
 <script>
 
-  document.addEventListener('DOMContentLoaded', function(){
+document.addEventListener('DOMContentLoaded', function(){
     var elems = document.querySelectorAll('.modal');
     var instances = M.Modal.init(elems);
   });
-    
-</script>
-
-<script>
 
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.sidenav');
@@ -867,13 +986,30 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
     <!-- Footer -->
-    <footer class="text-center bg-light">
+    <footer class="text-center ">
       <p>Copyright &copy; Blackveriun 2013-2019 Todos los Derechos Reservados</p>
-      <!-- login-->
+      <br>
+        <div class="center">
+          <i class="fab fa-angular fa-5x"></i>
+          <i class="fab fa-python fa-5x"></i>
+          <i class="fab fa-php fa-5x"></i>
+          <i class="fab fa-laravel fa-5x"></i>
+          <i class="fab fa-node-js fa-5x"></i>
+          <i class="fab fa-react fa-5x"></i>
+          <i class="fab fa-github fa-5x"></i>
+          <i class="fab fa-css3-alt fa-5x"></i>
+          <i class="fab fa-js-square fa-5x"></i>
+          <i class="fab fa-android fa-5x"></i>
+          <i class="fab fa-sass fa-5x"></i>
+          <i class="fab fa-gulp fa-5x"></i>
+          <i class="fab fa-html5 fa-5x"></i>
+          <i class="fab fa-wordpress fa-5x"></i>
+        </div>
+    <!-- login-->
 <div class="container center"  style="display: none;"> <!--on -> none-->
     <a href="#login" class="btn btn-large teal modal-trigger" >Ingresar</a>
-  </div>
-  <!-- login fin-->
+</div>
+    <!-- login fin-->
     </footer>
 
     <!-- login ini-->
@@ -892,13 +1028,13 @@ document.addEventListener('DOMContentLoaded', function() {
         } 
         
         } 
-                </script> 
+    </script> 
          
-        <script language="Javascript"> 
+    <script language="Javascript"> 
         
         document.oncontextmenu = function(){return false} 
         // End --> 
-        </script>
+    </script>
 
     <!-- login fin-->
 

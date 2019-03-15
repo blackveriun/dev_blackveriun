@@ -143,11 +143,25 @@ footer p {
   .header-content {
     top: 0;
   }
+
+}
+
+@media(max-width: 600px) {
+  .proyect{
+
+    display: none;
+    
+  } 
 }
 
 
 .kuro{
   color: black;
+}
+
+.proyect{
+  background: #fff;
+  color: #333;
 }
 /*
 .modal{
